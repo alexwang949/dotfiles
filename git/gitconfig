@@ -1,0 +1,15 @@
+[user]
+	name = Alex Wang
+	email = alexwang949@gmail.com
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
+[alias]
+    st = status
+    ci = commit --verbose
+    co = checkout
+    aa = add --all
+    b = branch
+[core]
+	excludesfile = ~/.gitignore
