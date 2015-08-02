@@ -44,11 +44,12 @@ ln -s ~/dotfiles/fish/fish.config ~/.config/fish/config.fish
 #set up symlink "subl" for shortcut to SublimeText
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
-#c
+#creating link to git config files
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/git/gitignore ~/.gitignore
 
 #generate ssh keys https://help.github.com/articles/generating-ssh-keys/
+
 
 
 
