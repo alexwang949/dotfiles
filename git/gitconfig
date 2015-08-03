@@ -13,3 +13,4 @@
     b = branch
 [core]
 	excludesfile = ~/.gitignore
+	editor = subl -n -w
