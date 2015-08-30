@@ -52,6 +52,26 @@ ln -s ~/dotfiles/git/gitignore ~/.gitignore
 
 
 
+#VIIIMMM!!!!!!! ****************
+
+#creating symlink for vim
+ln -s ~/dotfiles/vimrc.vim ~/.vimrc
+
+#install pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle #setup directories
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim #download files using curl
+#*** if fish config doesn't like, then run both commands separately.
+
+#add this line to vimrc.vim, VERY TOP!
+execute pathogen#infect()
+
+#create color files directory inside vim
+mkdir colors
+
+#curl color files
+curl https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim > jellybeans.vim
+
+
 
 
 
