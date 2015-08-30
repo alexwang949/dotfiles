@@ -70,10 +70,14 @@ mkdir colors
 
 #curl color files
 curl https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim > jellybeans.vim
-
-# set up plugin to view directory
+#setup directory control
 $ cd ~/.vim
 $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
+# set up tap completion
+$ cd ~/.vim
+$ git clone https://github.com/ervandew/supertab.git 
+
 
 
 
