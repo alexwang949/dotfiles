@@ -71,7 +71,9 @@ mkdir colors
 #curl color files
 curl https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim > jellybeans.vim
 
-
+# set up plugin to view directory
+$ cd ~/.vim
+$ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 
 
 
