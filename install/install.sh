@@ -79,6 +79,20 @@ $ cd ~/.vim
 $ git clone https://github.com/ervandew/supertab.git 
 
 
+# Configure SublimeText2 with Vintage Mode - https://www.sublimetext.com/docs/2/vintage.html
+ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+git clone git@github.com:sublimehq/Vintage.git "Vintage Dev" 
 
+1.In ST2, go to preferences/settings-user, add: "vintage_start_in_command_mode": true
+
+2.Go to preferences/key-bindings-user, add:
+
+{ "keys": ["k", "j"], "command": "exit_insert_mode",
+	"context":
+	[
+		{ "key": "setting.command_mode", "operand": false },
+		{ "key": "setting.is_widget", "operand": false }
+	]
+}
 
 
