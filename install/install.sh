@@ -95,4 +95,9 @@ git clone git@github.com:sublimehq/Vintage.git "Vintage Dev"
 	]
 }
 
+# Add Package Control in order to toggle between Vintage and Default mode for ST2.
+# commands: cmd shift p, enable/disable package, vintage option
+https://packagecontrol.io/installation
+
+
 
