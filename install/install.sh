@@ -42,6 +42,11 @@ defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 sudo echo "/usr/local/bin/fish" >> /etc/shells
 chsh -s /usr/local/bin/fish
 
+#if setting up on preconfig'd system, try:
+#http://hackercodex.com/guide/install-fish-shell-mac-ubuntu/#basic-configuration
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+
 #integrating symlnk with fish
 ln -s ~/dotfiles/fish/fish.config ~/.config/fish/config.fish
 
