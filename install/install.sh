@@ -51,6 +51,12 @@ chsh -s /usr/local/bin/fish
 ln -s ~/dotfiles/fish/fish.config ~/.config/fish/config.fish
 
 #set up symlink "subl" for shortcut to SublimeText
+
+############SUBLIME TEXT 3 ########## http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
+
+############SUBLIME TEXT 2
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 #creating link to git config files
