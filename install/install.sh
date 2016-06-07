@@ -22,7 +22,7 @@ brew install homebrew/dupes/grep
 brew install zsh #install diff shell
 brew install bash #updated version of bash
 brew install git #installs latest version of git
-brew install hub #for github
+brew install hub #for github: https://hub.github.com/
 brew install the_silver_searcher #replacement for grep
 brew install vim #updates vim
 
@@ -36,7 +36,8 @@ brew install node
 
 # enable key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-# set key repeat rate to blazing fast http://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
+
+# set key repeat rate to blazing fast !!!!!! http://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 
