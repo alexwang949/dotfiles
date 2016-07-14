@@ -1,11 +1,11 @@
 #Collin's "install.sh" https://github.com/cfmeyers/dotfiles/blob/master/install/install.sh
 
 
-
 # Install Chrome
 # Install Spectacle
 # Install SublimeText 2
 # Install Xcode tools
+# Install Postman | https://www.getpostman.com/docs/install_mac
 
 # install homebrew 
 # http://brew.sh/
@@ -69,14 +69,13 @@ ln -s ~/dotfiles/git/gitignore ~/.gitignore
 #generate ssh keys https://help.github.com/articles/generating-ssh-keys/
 
 
-
-#VIIIMMM!!!!!!! ****************
+#### VIIIMMM!!!!!!! ######
 
 #creating symlink for vim
 ln -s ~/dotfiles/vimrc.vim ~/.vimrc
 
 #install pathogen
-mkdir -p ~/.vim/autoload ~/.vim/bundle #setup directories
+mkdir -p ~/.vim/autoload ~/.vim/bundle #set up directories
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim #download files using curl
 #*** if fish config doesn't like, then run both commands separately.
 
@@ -88,7 +87,7 @@ mkdir colors
 
 #curl color files
 curl https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim > jellybeans.vim
-#setup directory control
+#set up directory control
 $ cd ~/.vim
 $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 
@@ -101,7 +100,8 @@ $ git clone https://github.com/ervandew/supertab.git
  cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
 git clone git@github.com:sublimehq/Vintage.git "Vintage Dev" 
 
-1.In ST2, go to preferences/settings-user, add: "vintage_start_in_command_mode": true
+## Configure ST3 with Vintage Mode
+1.In ST3, go to preferences/settings-user, add: "vintage_start_in_command_mode": true
 
 2.Go to preferences/key-bindings-user, add:
 
@@ -116,6 +116,13 @@ git clone git@github.com:sublimehq/Vintage.git "Vintage Dev"
 # Add Package Control in order to toggle between Vintage and Default mode for ST2.
 # commands: cmd shift p, enable/disable package, vintage option
 https://packagecontrol.io/installation
+
+#Install Sublime 3 Packages
+#HTML-CSS-JS Prettify: https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify
+#Alignment(align = and : signs) https://www.granneman.com/webdev/editors/sublime-text/packages/how-to-install-and-use-sublime-alignment/#install-the-sublime-alignment-package-in-sublime-t
+#Indent and Braces(place {} around highlighted lines) https://packagecontrol.io/packages/Indent%20and%20braces?__s=qzqoxs1jc9frxryfamax
+
+
 
 
 
